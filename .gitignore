@@ -1,26 +1,8 @@
-# Игнорируем настройки VS Code
-.vscode/
-
-# Игнорируем виртуальное окружение Python (если есть)
-venv/
-.env
-
-# Игнорируем временные файлы Python
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Игнорируем саму базу данных
-messages.db
-
-# Игнорируем системные файлы Windows
-Thumbs.db
-desktop.ini
-
-#Игнонируем всё в папке ssh
+code/
+start/
 ssh/
-
-#Скрытие токена репозитория
-start/TOKEN
-
-index.html
+TOKEN
+*.pyc
+__pycache__/
+messages.db
+.git/
